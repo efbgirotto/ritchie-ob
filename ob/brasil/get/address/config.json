@@ -1,0 +1,15 @@
+{
+  "dockerImageBuilder": "cimg/node:14.0",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new location zipcode: ",
+        "qty": 6
+      },
+      "label": "Type location zipcode: ",
+      "name": "zipcode",
+      "type": "text"
+    }
+  ]
+}
